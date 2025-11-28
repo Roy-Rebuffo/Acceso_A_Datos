@@ -1,0 +1,10 @@
+María:45
+Carlos:38
+Laura:32
+Raúl:30
+Jorge:29
+Andrés:27
+Sofía:24
+Elena:21
+Pedro:19
+Lucía:18
