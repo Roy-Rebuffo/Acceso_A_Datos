@@ -1,0 +1,572 @@
+Harvey Elliot,01/01/1970,Fulham
+Bakayo Sako,01/01/1970,Arsenal
+Julián Speroni,18/05/1979,Crystal Palace
+Artur Boruc,20/02/1980,AFC Bournemouth
+Bruno Saltor Grau,01/10/1980,Brighton & Hove Albion
+Peter Crouch,30/01/1981,Burnley
+Heurelho da Silva Gomes,15/02/1981,Watford
+Wilfredo Daniel Caballero,28/09/1981,Chelsea
+Petr Čech,20/05/1982,Arsenal
+Phil Jagielka,17/08/1982,Everton
+Maarten Stekelenburg,22/09/1982,Everton
+Jermain Defoe,07/10/1982,AFC Bournemouth
+Lee Grant,27/01/1983,Manchester United
+Ben Foster,03/04/1983,Watford
+Claudio Andrés Bravo Muñoz,13/04/1983,Manchester City
+Brian Murphy,07/05/1983,Cardiff City
+Jonathan Walters,20/09/1983,Burnley
+Glenn Murray,25/09/1983,Brighton & Hove Albion
+Michel Vorm,20/10/1983,Tottenham Hotspur
+Stephan Lichtsteiner,16/01/1984,Arsenal
+Wes Morgan,21/01/1984,Leicester City
+José Holebas,27/06/1984,Watford
+Leighton Baines,11/12/1984,Everton
+Steven Davis,01/01/1985,Southampton
+Souleymane Bamba,13/01/1985,Cardiff City
+Pablo Zabaleta,16/01/1985,West Ham United
+Simon Francis,16/02/1985,AFC Bournemouth
+Fernando Llorente Torres,26/02/1985,Tottenham Hotspur
+Łukasz Fabiański,18/04/1985,West Ham United
+Fernando Luiz Rosa,04/05/1985,Manchester City
+Phil Bardsley,28/06/1985,Burnley
+Ashley Young,09/07/1985,Manchester United
+Miguel Ángel Britos Cabrera,17/07/1985,Watford
+Antonio Valencia,04/08/1985,Manchester United
+Stephen Ward,20/08/1985,Burnley
+Laurent Koscielny,10/09/1985,Arsenal
+Gary Cahill,19/12/1985,Chelsea
+James Milner,04/01/1986,Liverpool
+David Silva,08/01/1986,Manchester City
+Carlos Sánchez,06/02/1986,West Ham United
+Nacho Monreal,26/02/1986,Arsenal
+Christian Fuchs,07/04/1986,Leicester City
+Vincent Kompany,10/04/1986,Manchester City
+Tom Heaton,15/04/1986,Burnley
+Shinji Okazaki,16/04/1986,Leicester City
+Jason Puncheon,26/06/1986,Huddersfield Town
+Andrew Surman,20/08/1986,AFC Bournemouth
+Charlie Daniels,07/09/1986,AFC Bournemouth
+João Moutinho,08/09/1986,Wolverhampton Wanderers
+Olivier Giroud,30/09/1986,Chelsea
+Adrian Mariappa,03/10/1986,Watford
+John Ruddy,24/10/1986,Wolverhampton Wanderers
+Kasper Schmeichel,05/11/1986,Leicester City
+Lee Peltier,11/12/1986,Cardiff City
+Ryan Guno Babel,19/12/1986,Fulham
+Hugo Lloris,26/12/1986,Tottenham Hotspur
+Adrián San Miguel del Castillo,03/01/1987,West Ham United
+Danny Simpson,04/01/1987,Leicester City
+Vicente Guaita,10/01/1987,Crystal Palace
+Jamie Vardy,11/01/1987,Leicester City
+Shane Long,22/01/1987,Southampton
+Wayne Hennessey,24/01/1987,Crystal Palace
+Scott Dann,14/02/1987,Crystal Palace
+Sergio Germán Romero,22/02/1987,Manchester United
+Marc Pugh,02/04/1987,AFC Bournemouth
+Aaron Lennon,16/04/1987,Burnley
+Markus Suttner,16/04/1987,Brighton & Hove Albion
+Joe Hart,19/04/1987,Burnley
+David Luiz,22/04/1987,Chelsea
+Jan Vertonghen,24/04/1987,Tottenham Hotspur
+Cesc Fabregas,04/05/1987,Chelsea
+Mark Noble,08/05/1987,West Ham United
+Mohamed Diamé,14/06/1987,Newcastle United
+Asmir Begović,20/06/1987,AFC Bournemouth
+Sebastian Prödl,21/06/1987,Watford
+Samir Nasri,26/06/1987,West Ham United
+Moussa Dembele,16/07/1987,Tottenham Hotspur
+Pedro Rodriguez,28/07/1987,Chelsea
+Robert Snodgrass,07/09/1987,West Ham United
+Matthew Connolly,24/09/1987,Cardiff City
+Tim Ream,05/10/1987,Fulham
+James McArthur,07/10/1987,Crystal Palace
+Ben Hamer,20/11/1987,Huddersfield Town
+Marouane Fellaini,22/11/1987,Manchester United
+Gonzalo Higuain,10/12/1987,Chelsea
+Fabricio Martín Agosto Ramírez,31/12/1987,Fulham
+Jonny Evans,03/01/1988,Leicester City
+Vicente Iborra De La Fuente,16/01/1988,Leicester City
+Nicolas Otamendi,12/02/1988,Manchester City
+Rui Pedro dos Santos Patrício,15/02/1988,Wolverhampton Wanderers
+Simon Mignolet,06/03/1988,Liverpool
+Fraser Forster,17/03/1988,Southampton
+Steven Defour,15/04/1988,Burnley
+Gaëtan Bong Songo,25/04/1988,Brighton & Hove Albion
+Bakary Sako,26/04/1988,Crystal Palace
+Juan Mata,28/04/1988,Manchester United
+Beram Kayal,02/05/1988,Brighton & Hove Albion
+Adam David Lallana,10/05/1988,Liverpool
+Angelo Ogbonna,23/05/1988,West Ham United
+Denis Odoi,27/05/1988,Fulham
+Javier Hernandez,01/06/1988,West Ham United
+Sergio Aguero,02/06/1988,Manchester City
+Sokratis Papastathopoulos,09/06/1988,Arsenal
+Leon Balogun,28/06/1988,Brighton & Hove Albion
+Troy Deeney,29/06/1988,Watford
+Etienne Capoue,11/07/1988,Watford
+Bruno Écuélé Manga,16/07/1988,Cardiff City
+Nemanja Matić,01/08/1988,Manchester United
+Willian,09/08/1988,Chelsea
+Maya Yoshida,24/08/1988,Southampton
+Lucas Perez,10/09/1988,West Ham United
+Séamus Coleman,11/10/1988,Everton
+Mesut Özil,15/10/1988,Arsenal
+Kevin McDonald,04/11/1988,Fulham
+Jonathan Hogg,06/12/1988,Huddersfield Town
+Laurent Depoitre,07/12/1988,Huddersfield Town
+Floyd Ayité,15/12/1988,Fulham
+Alexis Sanchez,19/12/1988,Manchester United
+Andy Carroll,06/01/1989,West Ham United
+Martin Dúbravka,15/01/1989,Newcastle United
+Henrikh Mkhitaryan,21/01/1989,Arsenal
+Sung-Yeung Ki,24/01/1989,Newcastle United
+Jonas Lössl,01/02/1989,Huddersfield Town
+Craig Cathcart,06/02/1989,Watford
+Federico Fernández,21/02/1989,Newcastle United
+David Button,27/02/1989,Brighton & Hove Albion
+Toby Alderweireld,02/03/1989,Tottenham Hotspur
+Daniel Williams,08/03/1989,Huddersfield Town
+Adrien Sebastian Perruchet Silva,15/03/1989,Leicester City
+Theo Walcott,16/03/1989,Everton
+James Tomkins,29/03/1989,Crystal Palace
+Chris Löwe,16/04/1989,Huddersfield Town
+Marko Arnautović,19/04/1989,West Ham United
+Aron Einar Gunnarsson,22/04/1989,Cardiff City
+Matthew Lowton,09/06/1989,Burnley
+Dale Stephens,12/06/1989,Brighton & Hove Albion
+Pierre-Emerick Aubameyang,18/06/1989,Arsenal
+Jack Cork,25/06/1989,Burnley
+Charlie Austin,05/07/1989,Southampton
+Dejan Lovren,05/07/1989,Liverpool
+Daryl Janmaat,22/07/1989,Watford
+Ryan Bertrand,05/08/1989,Southampton
+Stefano Okaka,09/08/1989,Watford
+Tom Cleverley,12/08/1989,Watford
+Ander Herrera,14/08/1989,Manchester United
+Moussa Sissoko,16/08/1989,Tottenham Hotspur
+Cesar Azpilicueta,28/08/1989,Chelsea
+Daniel Sturridge,01/09/1989,Liverpool
+Gylfi Sigurdsson,08/09/1989,Everton
+Matt Ritchie,10/09/1989,Newcastle United
+Rondon,16/09/1989,Newcastle United
+Ben Mee,21/09/1989,Burnley
+Ciaran Clark,26/09/1989,Newcastle United
+Idrissa Gana Gueye,26/09/1989,Everton
+Maxime Le Marchand,11/10/1989,Fulham
+Sam Vokes,21/10/1989,Burnley
+Andriy Yarmolenko,23/10/1989,West Ham United
+Joel Ward,29/10/1989,Crystal Palace
+Ashley Barnes,30/10/1989,Burnley
+Morgan Schneiderlin,08/11/1989,Everton
+Marc Albrighton,18/11/1989,Leicester City
+Fabian Delph,21/11/1989,Manchester City
+Chris Smalling,22/11/1989,Manchester United
+Junior Stanislas,26/11/1989,AFC Bournemouth
+Matteo Darmian,02/12/1989,Manchester United
+Alex McCarthy,03/12/1989,Southampton
+Aaron Cresswell,15/12/1989,West Ham United
+Cheikhou Kouyaté,21/12/1989,Crystal Palace
+Harry Arter,28/12/1989,Cardiff City
+Dan Gosling,01/02/1990,AFC Bournemouth
+Neil Leonard Dula Etheridge,07/02/1990,Cardiff City
+Mamadou Sakho,13/02/1990,Crystal Palace
+Danny Drinkwater,05/03/1990,Chelsea
+Alex Smithies,05/03/1990,Cardiff City
+Ryan Bennett,06/03/1990,Wolverhampton Wanderers
+Faustino Marcos Alberto Rojo,20/03/1990,Manchester United
+Romain Saïss,26/03/1990,Wolverhampton Wanderers
+José Luis Sanmartín Mato,27/03/1990,Newcastle United
+Michail Antonio,28/03/1990,West Ham United
+Joe Bennett,28/03/1990,Cardiff City
+Ashley Westwood,01/04/1990,Burnley
+Oumar Niasse,18/04/1990,Cardiff City
+Mathias Jattah-Njie Jørgensen,23/04/1990,Huddersfield Town
+Martin Kelly,27/04/1990,Crystal Palace
+Christopher Schindler,29/04/1990,Huddersfield Town
+Kyle Walker,28/05/1990,Manchester City
+David Junior Hoilett,05/06/1990,Cardiff City
+Pape N'Diaye Souaré,06/06/1990,Crystal Palace
+Jordan Henderson,17/06/1990,Liverpool
+Håvard Nordtveit,21/06/1990,Fulham
+Danny Rose,02/07/1990,Tottenham Hotspur
+Kevin Long,18/08/1990,Burnley
+Jason Steele,18/08/1990,Brighton & Hove Albion
+Gary Madine,24/08/1990,Cardiff City
+Patrick van Aanholt,29/08/1990,Crystal Palace
+Aaron Mooy,15/09/1990,Huddersfield Town
+Kieran Trippier,19/09/1990,Tottenham Hotspur
+Karl Darlow,08/10/1990,Newcastle United
+İlkay Gündoğan,24/10/1990,Manchester City
+Johann Berg Guðmunds­son,27/10/1990,Burnley
+André Schürrle,06/11/1990,Fulham
+David de Gea,07/11/1990,Manchester United
+Georginio Wijnaldum,11/11/1990,Liverpool
+James McCarthy,12/11/1990,Everton
+Danny Welbeck,26/11/1990,Arsenal
+Christian Benteke,03/12/1990,Crystal Palace
+Danny Ward,09/12/1990,Cardiff City
+Victor Moses,12/12/1990,Chelsea
+Aaron Ramsey,26/12/1990,Arsenal
+Marcos Alonso,28/12/1990,Chelsea
+Roberto Maximiliano Pereyra,07/01/1991,Watford
+Eden Hazard,07/01/1991,Chelsea
+Stefan Marius Johansen,08/01/1991,Fulham
+Loïc Damour,08/01/1991,Cardiff City
+Sean Morrison,08/01/1991,Cardiff City
+Tom Cairney,20/01/1991,Fulham
+Greg Cunningham,31/01/1991,Cardiff City
+Francisco Femenía Far,02/02/1991,Watford
+Willy Boly,03/02/1991,Wolverhampton Wanderers
+Riyad Mahrez,21/02/1991,Manchester City
+Christian Kabasele,24/02/1991,Watford
+N'Golo Kanté,29/03/1991,Chelsea
+Nathaniel Clyne,05/04/1991,AFC Bournemouth
+Luka Milivojević,07/04/1991,Crystal Palace
+Jazz Richards,12/04/1991,Cardiff City
+Martín Montoya,14/04/1991,Brighton & Hove Albion
+Steve Cook,19/04/1991,AFC Bournemouth
+Adam Smith,29/04/1991,AFC Bournemouth
+Raúl Alonso Jiménez Rodríguez,05/05/1991,Wolverhampton Wanderers
+Florian Lejeune,20/05/1991,Newcastle United
+Alexandre Lacazette,28/05/1991,Arsenal
+Rajiv van La Parra,04/06/1991,Huddersfield Town
+Cenk Tosun,07/06/1991,Everton
+Pascal Groß,15/06/1991,Brighton & Hove Albion
+Collin Quaner,18/06/1991,Huddersfield Town
+Victor Wanyama,25/06/1991,Tottenham Hotspur
+Andre Gray,26/06/1991,Watford
+Kevin De Bruyne,28/06/1991,Manchester City
+Virgil van Dijk,08/07/1991,Liverpool
+Danilo,15/07/1991,Manchester City
+Andros Townsend,16/07/1991,Crystal Palace
+Jean Michaël Seri,19/07/1991,Fulham
+Joel Matip,08/08/1991,Liverpool
+Leandro Bacuna,21/08/1991,Cardiff City
+Fabián Cornelio Balbuena González,23/08/1991,West Ham United
+Cedric Soares,31/08/1991,Southampton
+Davy Pröpper,02/09/1991,Brighton & Hove Albion
+Jordan Ayew,11/09/1991,Crystal Palace
+Oriol Romeu,24/09/1991,Southampton
+Paul Dummett,26/09/1991,Newcastle United
+Roberto Firmino,02/10/1991,Liverpool
+Xherdan Shaqiri,10/10/1991,Liverpool
+Anthony Knockaert,20/11/1991,Brighton & Hove Albion
+Lewis Dunk,21/11/1991,Brighton & Hove Albion
+Manolo Gabbiadini,26/11/1991,Southampton
+Chris Wood,07/12/1991,Burnley
+Fabian Schär,20/12/1991,Newcastle United
+Jorginho,20/12/1991,Chelsea
+Jack Wilshere,01/01/1992,West Ham United
+Shane Duffy,01/01/1992,Brighton & Hove Albion
+Paulo Dino Gazzaniga,02/01/1992,Tottenham Hotspur
+Christian Atsu Twasam,10/01/1992,Newcastle United
+Robbie Brady,14/01/1992,Burnley
+Joshua King,15/01/1992,AFC Bournemouth
+Matt Doherty,16/01/1992,Wolverhampton Wanderers
+Jeff Hendrick,31/01/1992,Burnley
+Carl Jenkinson,08/02/1992,Arsenal
+Christian Eriksen,14/02/1992,Tottenham Hotspur
+Phil Jones,21/02/1992,Manchester United
+Jonjo Shelvey,27/02/1992,Newcastle United
+Callum Wilson,27/02/1992,AFC Bournemouth
+Erik Lamela,04/03/1992,Tottenham Hotspur
+Bernd Leno,04/03/1992,Arsenal
+Neeskens Kebano,10/03/1992,Fulham
+Pedro Obiang,27/03/1992,West Ham United
+Stuart Armstrong,30/03/1992,Southampton
+Mathew Ryan,08/04/1992,Brighton & Hove Albion
+Sadio Mané,10/04/1992,Liverpool
+Tom Smith,14/04/1992,Huddersfield Town
+Nathaniel Mendez-Laing,15/04/1992,Cardiff City
+Shkodran Mustafi,17/04/1992,Arsenal
+Elias Kachunga,22/04/1992,Huddersfield Town
+Matěj Vydra,01/05/1992,Burnley
+Rachid Ghezzal,09/05/1992,Leicester City
+Dan Burn,09/05/1992,Brighton & Hove Albion
+Erik Durm,12/05/1992,Huddersfield Town
+Marcus Bettinelli,24/05/1992,Fulham
+Davide Zappacosta,11/06/1992,Chelsea
+Mohamed Salah,15/06/1992,Liverpool
+Nampalys Mendy,23/06/1992,Leicester City
+Alberto Moreno,05/07/1992,Liverpool
+Jose Izquierdo,07/07/1992,Brighton & Hove Albion
+Heung-Min Son,08/07/1992,Tottenham Hotspur
+Mohamed Elneny,11/07/1992,Arsenal
+Yoshinori Muto,15/07/1992,Newcastle United
+Daniel William John Ings,23/07/1992,Southampton
+Jannik Vestergaard,03/08/1992,Southampton
+Lucas Rodrigues Moura da Silva,13/08/1992,Tottenham Hotspur
+Damián Emiliano Martínez,02/09/1992,Arsenal
+Bernard Anício Caldeira Duarte,08/09/1992,Everton
+Granit Xhaka,27/09/1992,Arsenal
+Cyrus Christie,30/09/1992,Fulham
+Alisson Becker,02/10/1992,Liverpool
+Ryan Fredericks,10/10/1992,West Ham United
+Alvaro Morata,23/10/1992,Chelsea
+Wilfried Zaha,10/11/1992,Crystal Palace
+James Tarkowski,19/11/1992,Burnley
+Jesse Lingard,15/12/1992,Manchester United
+Jeffrey Schlupp,23/12/1992,Crystal Palace
+Serge Aurier,24/12/1992,Tottenham Hotspur
+Abdoulaye Doucouré,01/01/1993,Watford
+Michael Keane,11/01/1993,Everton
+Ben Gibson,15/01/1993,Burnley
+Bobby Reid,02/02/1993,Cardiff City
+Manuel Lanzini,15/02/1993,West Ham United
+Diego Rico,23/02/1993,AFC Bournemouth
+Conor Coady,25/02/1993,Wolverhampton Wanderers
+Antonio Rüdiger,03/03/1993,Chelsea
+Frederico Rodrigues Santos,05/03/1993,Manchester United
+Harry Maguire,05/03/1993,Leicester City
+Tyrone Mings,13/03/1993,AFC Bournemouth
+Paul Pogba,15/03/1993,Manchester United
+Connor Wickham,31/03/1993,Crystal Palace
+Florin Andone,11/04/1993,Brighton & Hove Albion
+Felipe Anderson Pereira Gomes,15/04/1993,West Ham United
+Ben Davies,24/04/1993,Tottenham Hotspur
+Alex Pritchard,03/05/1993,Huddersfield Town
+Romelu Lukaku,13/05/1993,Manchester United
+Kadeem Harris,08/06/1993,Cardiff City
+Sead Kolašinac,20/06/1993,Arsenal
+Loris Karius,22/06/1993,Liverpool
+Danny Ward,22/06/1993,Leicester City
+DeAndre Yedlin,09/07/1993,Newcastle United
+Lucas Digne,20/07/1993,Everton
+Harry Kane,28/07/1993,Tottenham Hotspur
+Ayoze Perez,29/07/1993,Newcastle United
+André Filipe Tavares Gomes,30/07/1993,Everton
+Alireza Jahanbakhsh,11/08/1993,Brighton & Hove Albion
+Will Norris,12/08/1993,Wolverhampton Wanderers
+Alex Oxlade-Chamberlain,15/08/1993,Liverpool
+Ederson,17/08/1993,Manchester City
+Mario Lemina,01/09/1993,Southampton
+Sergio Rico,01/09/1993,Fulham
+Joe Bryan,17/09/1993,Fulham
+Charlie Taylor,18/09/1993,Burnley
+Ken Sema,30/09/1993,Watford
+Michy Batshuayi,02/10/1993,Crystal Palace
+Ricardo Domingos Barbosa Pereira,06/10/1993,Leicester City
+Joe Ralls,13/10/1993,Cardiff City
+Ivan Ricardo Neves Abreu Cavaleiro,18/10/1993,Wolverhampton Wanderers
+Fabinho,23/10/1993,Liverpool
+Arthur Masuaku,07/11/1993,West Ham United
+Jürgen Locadia,07/11/1993,Brighton & Hove Albion
+Jamal Lascelles,11/11/1993,Newcastle United
+Luciano Vietto,05/12/1993,Fulham
+Ross Barkley,05/12/1993,Chelsea
+Adam Masina,02/01/1994,Watford
+Denis Suárez,06/01/1994,Arsenal
+Hélder Wander Sousa Azevedo Costa,12/01/1994,Wolverhampton Wanderers
+Eric Dier,15/01/1994,Tottenham Hotspur
+Alfie Mawson,19/01/1994,Fulham
+Jack Stephens,27/01/1994,Southampton
+Kenneth Dahrup Zohorè,31/01/1994,Cardiff City
+Miguel Ángel Almirón Rejala,10/02/1994,Newcastle United
+Terence Kongolo,14/02/1994,Huddersfield Town
+Ryan Fraser,24/02/1994,AFC Bournemouth
+Ibrahima Cissé,28/02/1994,Fulham
+Lazar Marković,02/03/1994,Fulham
+Jonny,03/03/1994,Wolverhampton Wanderers
+Nathan Redmond,06/03/1994,Southampton
+Wesley Hoedt,06/03/1994,Southampton
+Jordan Pickford,07/03/1994,Everton
+Andrew Robertson,11/03/1994,Liverpool
+Gerard Deulofeu,13/03/1994,Watford
+Leonardo Bonatini Lohner Maia,28/03/1994,Wolverhampton Wanderers
+Eric Bertrand Bailly,12/04/1994,Manchester United
+Javier Manquillo Gaitán,05/05/1994,Newcastle United
+Mateo Kovačić,06/05/1994,Chelsea
+Aymeric Laporte,27/05/1994,Manchester City
+Tyias Browning,27/05/1994,Everton
+John Stones,28/05/1994,Manchester City
+Víctor Camarasa,28/05/1994,Cardiff City
+Vincent Janssen,15/06/1994,Tottenham Hotspur
+Victor Nilsson Lindelöf,17/07/1994,Manchester United
+Benjamin Mendy,17/07/1994,Manchester City
+Solomon March,20/07/1994,Brighton & Hove Albion
+Florent Hadergjonaj,31/07/1994,Huddersfield Town
+Emerson Palmieri dos Santos,03/08/1994,Chelsea
+Mohamed Elyounoussi,04/08/1994,Southampton
+Bernardo Silva,10/08/1994,Manchester City
+Aleksandar Mitrović,16/09/1994,Fulham
+Yerry Fernando Mina González,23/09/1994,Everton
+Steve Mounié,29/09/1994,Huddersfield Town
+Kepa Arrizabalaga,03/10/1994,Chelsea
+Callum Paterson,13/10/1994,Cardiff City
+Jefferson Lerma,25/10/1994,AFC Bournemouth
+Kurt Zouma,27/10/1994,Everton
+James Ward-Prowse,01/11/1994,Southampton
+Rhys Healey,06/12/1994,Cardiff City
+Raheem Sterling,08/12/1994,Manchester City
+Nathaniel Chalobah,12/12/1994,Watford
+Daniel Amartey,21/12/1994,Leicester City
+Calum Chambers,20/01/1995,Fulham
+Naby Deco Keïta,10/02/1995,Liverpool
+Georges-Kevin N'Koudou Mbida,13/02/1995,Tottenham Hotspur
+Nathan Aké,18/02/1995,AFC Bournemouth
+Jacob Murphy,24/02/1995,Newcastle United
+Josh Murphy,24/02/1995,Cardiff City
+Aboubakar Kamara,07/03/1995,Fulham
+Antonio Barreca,18/03/1995,Newcastle United
+Hector Bellerin,19/03/1995,Arsenal
+Isaac Hayden,22/03/1995,Newcastle United
+Leander Dendoncker,15/04/1995,Wolverhampton Wanderers
+Will Hughes,17/04/1995,Watford
+Divock Origi,18/04/1995,Liverpool
+Bernardo,14/05/1995,Brighton & Hove Albion
+Marc Navarro Ceciliano,02/07/1995,Watford
+Sandro Ramirez,09/07/1995,Everton
+Luke Shaw,12/07/1995,Manchester United
+Kortney Hause,16/07/1995,Wolverhampton Wanderers
+Pierre-Emile Højbjerg,05/08/1995,Southampton
+Sullay Kaikai,26/08/1995,Crystal Palace
+Sam Gallagher,15/09/1995,Southampton
+Matt Targett,18/09/1995,Southampton
+Max Meyer,18/09/1995,Crystal Palace
+Rob Holding,20/09/1995,Arsenal
+Joel Coleman,26/09/1995,Huddersfield Town
+Fousseni Diabaté,18/10/1995,Leicester City
+André-Frank Zambo Anguissa,16/11/1995,Fulham
+Jamie Sterry,21/11/1995,Newcastle United
+Anthony Martial,05/12/1995,Manchester United
+Alexander Sørloth,05/12/1995,Crystal Palace
+Jordon Ibe,08/12/1995,AFC Bournemouth
+Andreas Pereira,01/01/1996,Manchester United
+Isaac Ajayi Success,07/01/1996,Watford
+Leroy Sané,11/01/1996,Manchester City
+Jon Gorenc Stankovič,14/01/1996,Huddersfield Town
+Angus Gunn,22/01/1996,Southampton
+Ruben Loftus-Cheek,23/01/1996,Chelsea
+Adama Traoré Diarra,25/01/1996,Wolverhampton Wanderers
+Harry Winks,02/02/1996,Tottenham Hotspur
+Robert Kenedy Nunes do Nascimento,08/02/1996,Newcastle United
+Lys Mousset,08/02/1996,AFC Bournemouth
+Lucas Torreira,11/02/1996,Arsenal
+Isaac Mbenza,08/03/1996,Huddersfield Town
+Emerson Hyndman,09/04/1996,AFC Bournemouth
+Andreas Christensen,10/04/1996,Chelsea
+Dele Alli,11/04/1996,Tottenham Hotspur
+Jan Bednarek,12/04/1996,Southampton
+Alex Iwobi,03/05/1996,Arsenal
+Caglar Söyüncü,23/05/1996,Leicester City
+Philip Billing,11/06/1996,Huddersfield Town
+Davinson Sánchez Mina,12/06/1996,Tottenham Hotspur
+Demarai Gray,28/06/1996,Leicester City
+Adama Diakhaby,05/07/1996,Huddersfield Town
+Yves Bissouma,30/08/1996,Brighton & Hove Albion
+Jaïro Riedewald,09/09/1996,Crystal Palace
+Kelechi Iheanacho,03/10/1996,Leicester City
+Mason Holgate,22/10/1996,Everton
+James Maddison,23/11/1996,Leicester City
+Abdelhamid Sabiri,28/11/1996,Huddersfield Town
+Diogo José Teixeira da Silva,04/12/1996,Wolverhampton Wanderers
+Scott McTominay,08/12/1996,Manchester United
+Oleksandr Zinchenko,15/12/1996,Manchester City
+Onyinye Wilfred Ndidi,16/12/1996,Leicester City
+Jack Simpson,18/12/1996,AFC Bournemouth
+Ben Chilwell,21/12/1996,Leicester City
+Issa Diop,09/01/1997,West Ham United
+Ramadan Sobhi,23/01/1997,Huddersfield Town
+Lewis Cook,03/02/1997,AFC Bournemouth
+Philippe Sandler,10/02/1997,Manchester City
+Luke Amos,23/02/1997,Tottenham Hotspur
+Freddie Woodman,04/03/1997,Newcastle United
+Rúben Diogo Da Silva Neves,13/03/1997,Wolverhampton Wanderers
+Jonjoe Kenny,15/03/1997,Everton
+Alexandre Nascimento Costa Silva,16/03/1997,West Ham United
+Dominic Calvert-Lewin,16/03/1997,Everton
+Joshua Sims,28/03/1997,Southampton
+Gabriel Jesus,03/04/1997,Manchester City
+Kyle Walker-Peters,13/04/1997,Tottenham Hotspur
+Callum Roberts,14/04/1997,Newcastle United
+Youri Tielemans,07/05/1997,Leicester City
+Richarlison de Andrade,10/05/1997,Everton
+Matt Butcher,14/05/1997,AFC Bournemouth
+Max Kilman,23/05/1997,Wolverhampton Wanderers
+Joe Gomez,23/05/1997,Liverpool
+Adalberto Peñaranda Maestre,31/05/1997,Watford
+David Brooks,08/07/1997,AFC Bournemouth
+Juninho Bacuna,07/08/1997,Huddersfield Town
+Ainsley Maitland-Niles,29/08/1997,Arsenal
+Josh Knight,07/09/1997,Leicester City
+Dominic Solanke,14/09/1997,AFC Bournemouth
+Hamza Choudhury,01/10/1997,Leicester City
+Alfie Jones,07/10/1997,Southampton
+Ben White,08/10/1997,Brighton & Hove Albion
+Kieran Dowell,10/10/1997,Everton
+Ademola Lookman,20/10/1997,Everton
+Sean Longstaff,30/10/1997,Newcastle United
+Marcus Rashford,31/10/1997,Manchester United
+Chris Mepham,05/11/1997,AFC Bournemouth
+Joe Daniel Tupper,15/11/1997,Crystal Palace
+Aaron Wan-Bissaka,26/11/1997,Crystal Palace
+Harvey Lewis Barnes,09/12/1997,Leicester City
+Konstantinos Mavropanos,11/12/1997,Arsenal
+Karlan Ahearne-Grant,19/12/1997,Huddersfield Town
+Timothy Fosu-Mensah,02/01/1998,Fulham
+Juan Marcos Foyth,12/01/1998,Tottenham Hotspur
+Bright Enobakhare,08/02/1998,Wolverhampton Wanderers
+Grady Diangana,19/04/1998,West Ham United
+Luca de la Torre,23/05/1998,Fulham
+Viktor Gyökeres,04/06/1998,Brighton & Hove Albion
+Nathan Holland,19/06/1998,West Ham United
+Tom Davies,30/06/1998,Everton
+Sam Surridge,28/07/1998,AFC Bournemouth
+Sam Woods,11/09/1998,Crystal Palace
+Alfie Whiteman,02/10/1998,Tottenham Hotspur
+Trent Alexander-Arnold,07/10/1998,Liverpool
+Demeaco Duhaney,13/10/1998,Huddersfield Town
+Joe Powell,30/10/1998,West Ham United
+Tyreke Johnson,03/11/1998,Southampton
+George Marsh,05/11/1998,Tottenham Hotspur
+Arijanet Muric,07/11/1998,Manchester City
+Kazaiah Sterling,09/11/1998,Tottenham Hotspur
+Luke Dreher,27/11/1998,Crystal Palace
+Max Harrison Sanders,04/01/1999,Brighton & Hove Albion
+Declan Rice,14/01/1999,West Ham United
+Nikola Tavares,17/01/1999,Crystal Palace
+Callum Slattery,08/02/1999,Southampton
+Yann Valery,22/02/1999,Southampton
+José Diogo Dalot Teixeira,18/03/1999,Manchester United
+Rúben Gonçalo Silva Nascimento Vinagre,09/04/1999,Wolverhampton Wanderers
+Mattéo Guendouzi Olié,14/04/1999,Arsenal
+Mark Travers,18/05/1999,AFC Bournemouth
+Edward Nketiah,30/05/1999,Arsenal
+Jayson Molumby,06/08/1999,Brighton & Hove Albion
+Joseph Willock,20/08/1999,Arsenal
+Cameron John,24/08/1999,Wolverhampton Wanderers
+Kyle Taylor,28/08/1999,AFC Bournemouth
+Kelland Watts,03/11/1999,Newcastle United
+Ben Wilmot,04/11/1999,Watford
+Nnamdi Ofoborh,07/11/1999,AFC Bournemouth
+Domingos Quina,18/11/1999,Watford
+Dwight McNeil,22/11/1999,Burnley
+Anthony Driscoll-Glennon,26/11/1999,Burnley
+Tahith Chong,04/12/1999,Manchester United
+Josh Benson,05/12/1999,Burnley
+Ryan Schofield,11/12/1999,Huddersfield Town
+Benjamin Johnson,24/01/2000,West Ham United
+Ryan Giles,26/01/2000,Wolverhampton Wanderers
+Morgan Gibbs-White,27/01/2000,Wolverhampton Wanderers
+Timothy Eyoma,29/01/2000,Tottenham Hotspur
+Lewis Cass,27/02/2000,Newcastle United
+Conor Coventry,25/03/2000,West Ham United
+Ryan Sessegnon,18/05/2000,Fulham
+Zeze Steven Sessegnon,18/05/2000,Fulham
+Rafael Euclides Soares Camacho,22/05/2000,Liverpool
+Philip Foden,28/05/2000,Manchester City
+Michael Obafemi,06/07/2000,Southampton
+Zechariah Medley,07/07/2000,Arsenal
+Marc Guehi,13/07/2000,Chelsea
+Emile Smith Rowe,28/07/2000,Arsenal
+Ali Koiki,22/08/2000,Burnley
+Angel Gomes,31/08/2000,Manchester United
+Aaron Rowe,07/09/2000,Huddersfield Town
+Ethan Ampadu,14/09/2000,Chelsea
+Oliver Skipp,16/09/2000,Tottenham Hotspur
+Kayne Ramsey,10/10/2000,Southampton
+Callum Hudson-Odoi,07/11/2000,Chelsea
+Curtis Jones,30/01/2001,Liverpool
+Matty Daly,10/03/2001,Huddersfield Town
+James Garner,13/03/2001,Manchester United
+Mason Greenwood,01/10/2001,Manchester United

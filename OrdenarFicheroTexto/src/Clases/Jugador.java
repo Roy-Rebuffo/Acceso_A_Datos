@@ -1,34 +1,46 @@
 package Clases;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 public class Jugador {
-	private LocalDate cumple;
-	private String club;
-	
-	public Jugador(LocalDate cumple, String club) {
-		super();
-		this.cumple = cumple;
-		this.club = club;
-	}
-	public LocalDate getCumple() {
+
+	private String nombre;
+	private Date cumple;
+	private String equipo;
+
+	public Date getCumple() {
 		return cumple;
 	}
-	public void setCumple(LocalDate cumple) {
+
+	public void setCumple(Date cumple) {
 		this.cumple = cumple;
 	}
-	public String getClub() {
-		return club;
+
+	public String getEquipo() {
+		return equipo;
 	}
-	public void setClub(String club) {
-		this.club = club;
+
+	public void setEquipo(String equipo) {
+		this.equipo = equipo;
 	}
-	
+
+	public Jugador(String nombre, Date cumple, String equipo) {
+		super();
+		this.nombre = nombre;
+		this.cumple = cumple;
+		this.equipo = equipo;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
 	@Override
 	public String toString() {
-		return "Jugador [cumple=" + cumple + ", club=" + club + "]";
+		return "\n > Jugador " + nombre + "\n\n < BIRTHDAY >" + cumple + "\n < TEAM > " + equipo;
 	}
-	
-	
 }
