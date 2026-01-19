@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"></html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+    a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit;       /* Hace que el link use el color del texto que lo rodea */
+}
+
+/* Opcional: Para que no cambie de color al hacer clic o visitarlo */
+a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+</style>
+<body>
+
+    <h1>Bienvenido</h1>
+    <h2>Oferta de trabajo</h2>
+
+    <h3 th:text="'Titulo:' + ${nombre}"></h3>
+    <h3 th:text="'Fecha Pub:' + ${fecha}"></h3>
+    <h3 th:text="'Salario Ofrecido:' + ${salario}"></h3>
+    <h3 th:text="'Vigente:' + ${vigente}"></h3>
+
+    <div>
+        <button><a th:href="@{/tabla}" class="btn btn-primary">Tabla Puestos</a></button>
+        <button><a th:href="@{/listado}" class="btn btn-secondary">Listado Empleos</a></button>
+    </div>
+
+</body>
+</html>
