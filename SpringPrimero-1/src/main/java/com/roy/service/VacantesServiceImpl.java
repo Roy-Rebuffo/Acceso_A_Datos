@@ -1,11 +1,15 @@
 package com.roy.service;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.roy.demo.model.Vacante;
 
+@Service
 public class VacantesServiceImpl implements iVacantesService {
 	//Atributo
 	private List<Vacante> lista = null;
@@ -90,5 +94,25 @@ public class VacantesServiceImpl implements iVacantesService {
 			if(v.getId()==idVacante) return v;
 		}
 		return null;
+	}
+
+	@Override
+	public List<Vacante> buscarPorAño(Integer año) {
+		List<Vacante> li = new ArrayList<Vacante>();
+		for (Vacante v : lista) {
+			if(v.getFecha().getYear() + 1900 == año) li.add(v); 
+		}
+		return li;
+	}
+
+	@Override
+	public boolean borrarPorId(Integer idVacante) {
+		for (int i = 0; i < lista.size(); i++) {
+			if(lista.get(i).getId() == idVacante) {
+				lista.remove(i);
+				return true;
+			}
+		}
+		return false;
 	}
 }

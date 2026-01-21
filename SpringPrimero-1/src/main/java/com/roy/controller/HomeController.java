@@ -59,11 +59,20 @@ public class HomeController {
 	
 	@GetMapping("/buscar/{id}")
 	public String buscarPorId(
-			@PathVariable("id") int n, Model model) {
+			@PathVariable("id") int n, Model model) {	
 		
-		Vacante v = serviceVacantes.buscarPorId(n);
-		
-		model.addAttribute("vacante",v);
+		model.addAttribute("vacante", serviceVacantes.buscarPorId(n));
 		return "buscar";
+		
 	}
+	
+	@GetMapping("/buscarAño/{año}")
+	public String buscarPorAño(
+			@PathVariable("año") int año, Model model) {
+		
+		model.addAttribute("año", año);
+		model.addAttribute("vacante", serviceVacantes.buscarPorAño(año));
+		return "buscarAño";
+	}
+	
 }
