@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1>Holitas</h1>
+
+    <div class="container"> 
+        <h2 class="font-weight-bold text-center text-capitalize">DESTACADOS</h2>
+        <hr>
+        <div class="row" th:each="vacante : ${departamentos}">
+          <div class="col-md-3">            
+            <img class="rounded mx-auto d-block" th:src="@{/images/{img} (img=${vacante.imagen} ) }" alt="Generic placeholder image" width="220" height="220">            
+          </div>
+          <div class="col-md-9">
+            <h2 th:text="${vacante.nombre}"></h2>
+            <h6 class="card-title"><strong>Categoría: </strong> <span></span></h6>
+            <h6 class="card-title"><strong>Publicado: </strong> <span th:text="${vacante.fecha}"></span></h6>                
+            <p th:text="${vacante.descripcion}"></p>
+            <p><a class="btn btn-secondary" th:href="@{/vacantes/view/{id} (id=${vacante.id})  }" role="button">Detalles &raquo;</a></p>            
+          </div>
+        </div>  
+                 
+		  <hr>	
+      </div>
+</body>
+</html>
