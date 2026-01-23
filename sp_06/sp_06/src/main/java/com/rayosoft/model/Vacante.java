@@ -1,105 +1,150 @@
 package com.rayosoft.model;
 
+import java.io.Serializable;
+import jakarta.persistence.*;
 import java.util.Date;
+import java.util.List;
 
-public class Vacante {
 
-	private Integer id;
-	private String nombre;
+/**
+ * The persistent class for the vacantes database table.
+ * 
+ */
+@Entity
+@Table(name="vacantes")
+@NamedQuery(name="Vacante.findAll", query="SELECT v FROM Vacante v")
+public class Vacante implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
 	private String descripcion;
-	private Date fecha;
-	private Double salario;
-	private Integer destacado;
-	private String imagen = "no-image.png";
-	private String estatus;
+	private int destacado;
 	private String detalles;
+	private String estatus;
+	private Date fecha;
+	private String imagen;
+	private String nombre;
+	private double salario;
+
+	//bi-directional many-to-one association to Solicitude
+	@OneToMany(mappedBy="vacante")
+	private List<Solicitude> solicitudes;
+
+	//bi-directional many-to-one association to Categoria
+	@ManyToOne
+	@JoinColumn(name="idCategoria")
 	private Categoria categoria;
 
-	public Integer getId() {
-		return id;
+	public Vacante() {
+		super();
 	}
 
-	public void setId(Integer id) {
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
 		this.id = id;
 	}
 
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
 	public String getDescripcion() {
-		return descripcion;
+		return this.descripcion;
 	}
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
 
-	public Date getFecha() {
-		return fecha;
+	public int getDestacado() {
+		return this.destacado;
 	}
 
-	public void setFecha(Date fecha) {
-		this.fecha = fecha;
-	}
-
-	public Double getSalario() {
-		return salario;
-	}
-
-	public void setSalario(Double salario) {
-		this.salario = salario;
-	}
-
-	public Integer getDestacado() {
-		return destacado;
-	}
-
-	public void setDestacado(Integer destacado) {
+	public void setDestacado(int destacado) {
 		this.destacado = destacado;
 	}
 
-	public String getImagen() {
-		return imagen;
-	}
-
-	public void setImagen(String imagen) {
-		this.imagen = imagen;
-	}
-
-	public String getEstatus() {
-		return estatus;
-	}
-
-	public void setEstatus(String estatus) {
-		this.estatus = estatus;
-	}
-
 	public String getDetalles() {
-		return detalles;
+		return this.detalles;
 	}
 
 	public void setDetalles(String detalles) {
 		this.detalles = detalles;
 	}
 
+	public String getEstatus() {
+		return this.estatus;
+	}
+
+	public void setEstatus(String estatus) {
+		this.estatus = estatus;
+	}
+
+	public Date getFecha() {
+		return this.fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+
+	public String getImagen() {
+		return this.imagen;
+	}
+
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+
+	public String getNombre() {
+		return this.nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getSalario() {
+		return this.salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public List<Solicitude> getSolicitudes() {
+		return this.solicitudes;
+	}
+
+	public void setSolicitudes(List<Solicitude> solicitudes) {
+		this.solicitudes = solicitudes;
+	}
+
+	public Solicitude addSolicitude(Solicitude solicitude) {
+		getSolicitudes().add(solicitude);
+		solicitude.setVacante(this);
+
+		return solicitude;
+	}
+
+	public Solicitude removeSolicitude(Solicitude solicitude) {
+		getSolicitudes().remove(solicitude);
+		solicitude.setVacante(null);
+
+		return solicitude;
+	}
+
 	public Categoria getCategoria() {
-		return categoria;
+		return this.categoria;
 	}
 
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
 	}
-
-	@Override
-	public String toString() {
-		return "Vacante [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", fecha=" + fecha
-				+ ", salario=" + salario + ", destacado=" + destacado + ", imagen=" + imagen + ", estatus=" + estatus
-				+ ", detalles=" + detalles + ", categoria=" + categoria + "]";
+	
+	public void reset() {
+		this.imagen = null;
 	}
 
 }
