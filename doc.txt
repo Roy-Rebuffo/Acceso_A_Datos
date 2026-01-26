@@ -1,0 +1,36 @@
+Para todos los proyectos
+
+1. El Java y el IDE
+Asegúrate de que el PC del instituto tenga:
+
+JDK 17 (que es el que pusiste en tu pom.xml). Si tienen el 8 o el 11, te dará error al compilar.
+
+Su IDE favorito (Eclipse, IntelliJ, VS Code).
+
+2. La Base de Datos (¡Ojo aquí!)
+El git pull no se trae tu base de datos de MySQL, solo se trae el código.
+
+En el instituto tendrás que tener instalado MySQL.
+
+Fíjate en tu application.properties: el instituto debe tener la base de datos bd_scott en el puerto 3307 (o cambiarlo al 3306 si es el que usan allí) con el usuario root y pass 1234.
+
+Truco: Como vi que tienes archivos .sql en tu carpeta TODASBBDD, asegúrate de que esos archivos se suban al Git para que en el instituto puedas importarlos y tener las tablas listas.
+
+3. Las Dependencias (Maven)
+Al abrir el proyecto por primera vez en el instituto, verás que todo sale en rojo. ¡No te asustes!
+
+Como no subiste la carpeta hibernate-search ni las librerías (porque están en el .gitignore), el IDE tiene que descargarlas.
+
+Haz clic derecho en el proyecto > Maven > Update Project. El PC del instituto se conectará a internet y bajará todo lo que dice tu pom.xml.
+
+4. La ruta de archivos (Si aplica)
+Si en tu código tienes rutas fijas como C:/tmp o C:/empleos/..., asegúrate de que esas carpetas existan en el PC del instituto o la aplicación petará cuando intentes subir una imagen o un archivo.
+
+Resumen para cuando llegues al PC de clase:
+git clone (si es la primera vez) o git pull.
+
+Importar el proyecto como "Existing Maven Project".
+
+Ejecutar tus scripts .sql en el MySQL de clase para crear las tablas.
+
+Revisar el application.properties por si el MySQL de clase tiene otra contraseña o puerto.
