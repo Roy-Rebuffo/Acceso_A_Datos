@@ -1,0 +1,16 @@
+# Ignorar carpetas de compilación
+bin/
+target/
+.settings/
+.metadata/
+
+# Ignorar archivos de configuración del IDE
+.classpath
+.project
+
+# Ignorar ejecutables de Maven
+mvnw
+mvnw.cmd
+.mvn/
+
+hibernate-search-5.8.0.Final/

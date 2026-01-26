@@ -23,5 +23,4 @@ public class Ej_CrearSCHEMA {
 			ex.printStackTrace();
 		}
 	}
-
 }
