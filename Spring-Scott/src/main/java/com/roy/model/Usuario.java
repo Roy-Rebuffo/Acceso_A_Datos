@@ -1,9 +1,8 @@
-package com.rayosoft.model;
+package com.roy.model;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
 import java.util.Date;
-import java.util.LinkedList;
 import java.util.List;
 
 
@@ -20,32 +19,34 @@ public class Usuario implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
+
 	private String email;
+
 	private int estatus;
+
+	@Temporal(TemporalType.DATE)
 	private Date fechaRegistro;
+
 	private String nombre;
+
 	private String password;
+
 	private String username;
-	
-	//En vez de crear el "Pojo" con la 3a tabla, creamos la relacion entre las
-	//dos tablas de esta forma
-	@ManyToMany(fetch=FetchType.EAGER)
-	@JoinTable(name="UsuarioPerfil",
-				joinColumns = @JoinColumn(name="idUsuario"),
-				inverseJoinColumns = @JoinColumn(name="idPerfil")
-			)
-	
+
+	//bi-directional many-to-many association to Perfile
+	@ManyToMany
+	@JoinTable(
+		name="usuarioperfil"
+		, joinColumns={
+			@JoinColumn(name="idUsuario")
+			}
+		, inverseJoinColumns={
+			@JoinColumn(name="idPerfil")
+			}
+		)
 	private List<Perfile> perfiles;
-	
-	public void agregar(Perfile tempPerfil) {
-		if(perfiles == null) {
-			perfiles = new LinkedList<Perfile>();
-		}
-		perfiles.add(tempPerfil);
-	}
 
 	public Usuario() {
-		super();
 	}
 
 	public int getId() {
@@ -104,21 +105,12 @@ public class Usuario implements Serializable {
 		this.username = username;
 	}
 
-
-	public List<Perfile> getPerfiles(){
-		return perfiles;
+	public List<Perfile> getPerfiles() {
+		return this.perfiles;
 	}
 
 	public void setPerfiles(List<Perfile> perfiles) {
 		this.perfiles = perfiles;
 	}
 
-	@Override
-	public String toString() {
-		return "Usuario [id=" + id + ", email=" + email + ", estatus=" + estatus + ", fechaRegistro=" + fechaRegistro
-				+ ", nombre=" + nombre + ", password=" + password + ", username=" + username +
-				 ", perfiles=" + perfiles + "]";
-	}
-
-	
 }

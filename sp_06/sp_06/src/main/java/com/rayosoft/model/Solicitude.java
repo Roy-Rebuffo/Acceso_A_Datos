@@ -1,9 +1,9 @@
 package com.rayosoft.model;
 
 import java.io.Serializable;
-import jakarta.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 
+import jakarta.persistence.*;
 
 /**
  * The persistent class for the solicitudes database table.
@@ -18,26 +18,20 @@ public class Solicitude implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
-
 	private String archivo;
-
-	@Lob
 	private String comentarios;
+	private LocalDate fecha;
 
-	@Temporal(TemporalType.DATE)
-	private Date fecha;
-
-	//bi-directional many-to-one association to Usuario
-	@ManyToOne
-	@JoinColumn(name="idUsuario")
+	@OneToOne
+	@JoinColumn(name="idUsuario") //fK en la tabla de usuarios
 	private Usuario usuario;
 
-	//bi-directional many-to-one association to Vacante
-	@ManyToOne
-	@JoinColumn(name="idVacante")
+	@OneToOne
+	@JoinColumn(name="idVacante") //fK en la tabla de solicitudes
 	private Vacante vacante;
 
 	public Solicitude() {
+		this.fecha = LocalDate.now();
 	}
 
 	public int getId() {
@@ -64,11 +58,11 @@ public class Solicitude implements Serializable {
 		this.comentarios = comentarios;
 	}
 
-	public Date getFecha() {
-		return this.fecha;
+	public LocalDate getFecha() {
+		return fecha;
 	}
 
-	public void setFecha(Date fecha) {
+	public void setFecha(LocalDate fecha) {
 		this.fecha = fecha;
 	}
 
