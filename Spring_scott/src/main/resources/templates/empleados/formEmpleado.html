@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>SpringScott | Formulario Empleado</title>
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header th:insert="~{fragments/menu :: menu-principal}"></header>
+
+    <main role="main" class="container" style="margin-top: 80px;">
+        <div class="card">
+            <h4 class="card-header"><strong th:text="${emp.empno != null ? 'Editar Empleado' : 'Nuevo Empleado'}"></strong></h4>
+            <div class="card-body">
+                
+                <form th:action="@{/empleados/save}" method="post" th:object="${emp}">
+                    
+                    <input type="hidden" th:field="*{empno}">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="ename">Nombre (Ename)</label>
+                                <input type="text" class="form-control" th:field="*{ename}" id="ename" placeholder="Nombre del empleado" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="job">Oficio (Job)</label>
+                                <input type="text" class="form-control" th:field="*{job}" id="job" placeholder="Puesto de trabajo" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="sal">Salario</label>
+                                <input type="number" step="0.01" class="form-control" th:field="*{sal}" id="sal" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="hiredate">Fecha Alta</label>
+                                <input type="date" class="form-control" th:field="*{hiredate}" id="hiredate" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="dept">Departamento</label>
+                                <select class="form-control" th:field="*{dept}" id="dept">
+                                    <option th:each="d : ${departamentos}" 
+                                            th:value="${d.deptno}" 
+                                            th:text="${d.dname}"></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <a th:href="@{/empleados/index}" class="btn btn-secondary">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer th:insert="~{fragments/footer :: pie-pagina}"></footer>
+</body>
+</html>

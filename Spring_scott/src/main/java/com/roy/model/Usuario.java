@@ -112,5 +112,13 @@ public class Usuario implements Serializable {
 	public void setPerfiles(List<Perfile> perfiles) {
 		this.perfiles = perfiles;
 	}
+	
+	// Método auxiliar para añadir un perfil a la lista
+	public void agregar(Perfile perfil) {
+	    if (perfiles == null) {
+	        perfiles = new java.util.LinkedList<Perfile>();
+	    }
+	    perfiles.add(perfil);
+	}
 
 }

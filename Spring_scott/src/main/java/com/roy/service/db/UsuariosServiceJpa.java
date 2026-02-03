@@ -6,11 +6,13 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import com.roy.model.Usuario;
 import com.roy.repository.UsuariosRepository;
 import com.roy.service.IUsuariosService;
 
+@Service
 public class UsuariosServiceJpa implements IUsuariosService {
 	
 	@Autowired
@@ -42,5 +44,10 @@ public class UsuariosServiceJpa implements IUsuariosService {
 	public Page<Usuario> buscarTodas(Pageable page) {
 		return usuariosRepo.findAll(page);
 	}
+
+	@Override
+    public Usuario buscarPorUsername(String username) {
+        return usuariosRepo.findByUsername(username);
+    }
 
 }

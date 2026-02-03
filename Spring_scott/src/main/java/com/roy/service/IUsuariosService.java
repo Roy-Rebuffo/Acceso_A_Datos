@@ -14,4 +14,5 @@ public interface IUsuariosService {
 	
 	void eliminar(Integer userId);
 	Page<Usuario> buscarTodas(Pageable page);
+	Usuario buscarPorUsername(String username);
 }

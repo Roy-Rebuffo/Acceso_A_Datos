@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>SpringScott | Listado de Empleados</title>
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header th:insert="~{fragments/menu :: menu-principal}"></header>
+
+    <main role="main" class="container" style="margin-top: 80px;">
+        <div class="card">
+            <h4 class="card-header"><strong>Listado de Empleados</strong></h4>
+            <div class="card-body">
+                
+                <a class="btn btn-primary mb-3" th:href="@{/empleados/create}" role="button">Nuevo Empleado</a>
+                
+                <div th:if="${msg != null}" class="alert alert-success" th:text="${msg}" role="alert"></div>
+
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Puesto</th>
+                            <th scope="col">Departamento</th>
+                            <th scope="col">Salario</th>
+                            <th scope="col">Operaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="emp : ${empleados}">
+                            <th scope="row" th:text="${emp.empno}"></th>
+                            <td th:text="${emp.ename}"></td>
+                            <td th:text="${emp.job}"></td>
+                            <td th:text="${emp.dept != null ? emp.dept.dname : 'N/A'}"></td>
+                            <td th:text="${emp.sal} + ' €'"></td>
+                            <td>
+                                <a th:href="@{/empleados/edit/{id} (id=${emp.empno}) }" class="btn btn-warning btn-sm">Editar</a>
+                                <a th:href="@{/empleados/delete/{id} (id=${emp.empno}) }" 
+                                   onclick="return confirm('¿Estás seguro de querer borrar este empleado?')" 
+                                   class="btn btn-danger btn-sm">Eliminar</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item" th:classappend="${empleados.first} ? 'disabled'">
+                            <a class="page-link" th:href="@{/empleados/index(page=${empleados.number - 1})}">Anterior</a>
+                        </li>
+                        <li class="page-item" th:each="i : ${#numbers.sequence(0, empleados.totalPages - 1)}" 
+                            th:classappend="${i == empleados.number} ? 'active'">
+                            <a class="page-link" th:href="@{/empleados/index(page=${i})}" th:text="${i + 1}"></a>
+                        </li>
+                        <li class="page-item" th:classappend="${empleados.last} ? 'disabled'">
+                            <a class="page-link" th:href="@{/empleados/index(page=${empleados.number + 1})}">Siguiente</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </main>
+
+    <footer th:insert="~{fragments/footer :: pie-pagina}"></footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script th:src="@{/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
