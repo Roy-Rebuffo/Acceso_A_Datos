@@ -1,5 +1,6 @@
 package com.roy.model;
 
+
 import java.io.Serializable;
 import jakarta.persistence.*;
 import java.util.List;
@@ -10,14 +11,13 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="dept")
 @NamedQuery(name="Dept.findAll", query="SELECT d FROM Dept d")
 public class Dept implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int deptno;
+	private Integer deptno;
 
 	private String dname;
 
@@ -28,13 +28,14 @@ public class Dept implements Serializable {
 	private List<Emp> emps;
 
 	public Dept() {
+		super();
 	}
 
-	public int getDeptno() {
+	public Integer getDeptno() {
 		return this.deptno;
 	}
 
-	public void setDeptno(int deptno) {
+	public void setDeptno(Integer deptno) {
 		this.deptno = deptno;
 	}
 
@@ -75,5 +76,7 @@ public class Dept implements Serializable {
 
 		return emp;
 	}
+	
+	
 
 }

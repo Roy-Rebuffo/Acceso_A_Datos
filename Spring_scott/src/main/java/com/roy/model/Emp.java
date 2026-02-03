@@ -2,6 +2,8 @@ package com.roy.model;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 
@@ -10,49 +12,50 @@ import java.util.Date;
  * 
  */
 @Entity
-@Table(name="emp")
 @NamedQuery(name="Emp.findAll", query="SELECT e FROM Emp e")
 public class Emp implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int empno;
+	private Integer empno;
 
-	private float comm;
+	private Float comm;
 
 	private String ename;
 
 	@Temporal(TemporalType.DATE)
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date hiredate;
 
 	private String job;
 
-	private int mgr;
+	private Integer mgr;
 
-	private float sal;
+	private Float sal;
 
 	//bi-directional many-to-one association to Dept
 	@ManyToOne
-	@JoinColumn(name="DEPTNO")
+@JoinColumn(name="DEPTNO")
 	private Dept dept;
 
 	public Emp() {
+		super();
 	}
 
-	public int getEmpno() {
+	public Integer getEmpno() {
 		return this.empno;
 	}
 
-	public void setEmpno(int empno) {
+	public void setEmpno(Integer empno) {
 		this.empno = empno;
 	}
 
-	public float getComm() {
+	public Float getComm() {
 		return this.comm;
 	}
 
-	public void setComm(float comm) {
+	public void setComm(Float comm) {
 		this.comm = comm;
 	}
 
@@ -80,19 +83,19 @@ public class Emp implements Serializable {
 		this.job = job;
 	}
 
-	public int getMgr() {
+	public Integer getMgr() {
 		return this.mgr;
 	}
 
-	public void setMgr(int mgr) {
+	public void setMgr(Integer mgr) {
 		this.mgr = mgr;
 	}
 
-	public float getSal() {
+	public Float getSal() {
 		return this.sal;
 	}
 
-	public void setSal(float sal) {
+	public void setSal(Float sal) {
 		this.sal = sal;
 	}
 
@@ -102,6 +105,10 @@ public class Emp implements Serializable {
 
 	public void setDept(Dept dept) {
 		this.dept = dept;
+	}
+	
+	public void reset() {
+		this.ename=null;
 	}
 
 }
